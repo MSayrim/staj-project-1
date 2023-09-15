@@ -1,7 +1,9 @@
 server:
-  port: 8090
-datasource:
-  url: jdbc:postgresql://161.35.77.124:25433/ahmet
-  username: root
-  password: a*O5Fz455b
-  driverClassName: org.postgresql.Driver
+  port: 8095
+spring:
+  datasource:
+    url: jdbc:postgresql://161.35.77.124:25433/ahmet
+    username: root
+    password: a*O5Fz455b
+    driverClassName: org.postgresql.Driver
+
